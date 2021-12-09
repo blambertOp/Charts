@@ -286,6 +286,11 @@ open class AxisBase: ComponentBase
 
     }
     
+    open func removeAllColorZones()
+    {
+        _colorZones.removeAll()
+    }
+    
     /// The  ColorZones of this axis.
     open var colorZones : [ChartColorZone]
     {
